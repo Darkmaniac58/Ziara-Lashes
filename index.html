@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ziara Lashes — Premium Lash Extensions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo-link">
+        <img src="https://storage.manus.im/ziara-logo-final_696e70b1.png" alt="Ziara Lashes" class="logo" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-primary btn-book">Book Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="badge animate-in">Premium Lash Studio</span>
+        <h1 class="hero-title animate-in">
+          Your Eyes,<br />
+          <em>Elevated.</em>
+        </h1>
+        <p class="hero-subtitle animate-in">
+          Premium lash extensions crafted with artistry and precision. Each set is tailored to your unique eye shape, style, and natural beauty.
+        </p>
+        <div class="hero-buttons animate-in">
+          <a href="#contact" class="btn btn-primary btn-lg">Book Your Transformation</a>
+          <a href="#services" class="btn btn-outline btn-lg">Explore Services</a>
+        </div>
+        <div class="hero-stats animate-in">
+          <div class="stars">
+            <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+          </div>
+          <span class="stats-text"><strong>300+</strong> happy clients</span>
+        </div>
+      </div>
+      <div class="hero-image animate-in">
+        <div class="hero-img-wrapper">
+          <img src="https://storage.manus.im/hero-lashes-studio_9f756cab.jpg" alt="Beautiful lash extensions" class="hero-img" />
+          <div class="hero-img-overlay"></div>
+        </div>
+        <div class="stat-card stat-card-bottom animate-in">
+          <div class="stat-icon">&#10024;</div>
+          <div class="stat-info">
+            <strong>3+ Years</strong>
+            <span>of lash artistry</span>
+          </div>
+        </div>
+        <div class="stat-card stat-card-top animate-in">
+          <p class="stat-number">100%</p>
+          <p class="stat-label">Custom sets</p>
+        </div>
+      </div>
+    </div>
+    <div class="marquee-bar">
+      <div class="marquee-track">
+        <span>Classic Lashes</span><span class="diamond">&#9830;</span>
+        <span>Volume Sets</span><span class="diamond">&#9830;</span>
+        <span>Soft-Hybrid</span><span class="diamond">&#9830;</span>
+        <span>Wet Sets</span><span class="diamond">&#9830;</span>
+        <span>Hybrid</span><span class="diamond">&#9830;</span>
+        <span>Refills</span><span class="diamond">&#9830;</span>
+        <span>Brow Lamination</span><span class="diamond">&#9830;</span>
+        <span>House Calls</span><span class="diamond">&#9830;</span>
+        <span>Classic Lashes</span><span class="diamond">&#9830;</span>
+        <span>Volume Sets</span><span class="diamond">&#9830;</span>
+        <span>Soft-Hybrid</span><span class="diamond">&#9830;</span>
+        <span>Wet Sets</span><span class="diamond">&#9830;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Services</span>
+        <h2 class="section-title">Price <em>List</em></h2>
+        <p class="section-subtitle">From natural elegance to full glamour, discover the perfect lash set designed just for you. All prices in Ksh.</p>
+      </div>
+
+      <!-- Tab Selector -->
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="fullsets">Full Sets</button>
+        <button class="tab-btn" data-tab="refills">Refills</button>
+        <button class="tab-btn" data-tab="extras">Extras</button>
+      </div>
+
+      <!-- Full Sets Tab -->
+      <div class="tab-content active" id="fullsets">
+        <div class="services-grid">
+          <div class="service-card" data-delay="0">
+            <div class="service-img-wrap">
+              <img src="https://storage.manus.im/gallery-studio-1_36637c58.jpg" alt="Classic Set" />
+            </div>
+            <div class="service-body">
+              <div class="service-header">
+                <h3>Classic Set</h3>
+                <span class="service-price">Ksh 3,000</span>
+              </div>
+              <p>One extension per natural lash for a subtle, effortless enhancement. Perfect for first-timers.</p>
+              <div class="service-meta"><span>&#128336;</span> 90 min</div>
+              <ul class="service-features">
+                <li>1:1 ratio</li><li>Natural look</li><li>Lightweight</li><li>Lasts 6-8 weeks</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline btn-block">Book This Set</a>
+            </div>
+          </div>
+
+          <div class="service-card" data-delay="100">
+            <div class="service-img-wrap">
+              <img src="https://storage.manus.im/gallery-studio-1_36637c58.jpg" alt="Soft-Hybrid" />
+            </div>
+            <div class="service-body">
+              <div class="service-header">
+                <h3>Soft-Hybrid</h3>
+                <span class="service-price">Ksh 3,500</span>
+              </div>
+              <p>A beautiful blend of classic and hybrid techniques for a wispy, natural-yet-enhanced finish.</p>
+              <div class="service-meta"><span>&#128336;</span> 100 min</div>
+              <ul class="service-features">
+                <li>Mixed technique</li><li>Wispy texture</li><li>Soft volume</li><li>Lasts 6-8 weeks</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline btn-block">Book This Set</a>
+            </div>
+          </div>
+
+          <div class="service-card" data-delay="200">
+            <div class="service-img-wrap">
+              <img src="https://storage.manus.im/gallery-studio-2_c47f92aa.jpg" alt="Hybrid Set" />
+            </div>
+            <div class="service-body">
+              <div class="service-header">
+                <h3>Hybrid Set</h3>
+                <span class="service-price">Ksh 4,000</span>
+              </div>
+              <p>Combines classic and volume lashes for the perfect balance of natural and dramatic.</p>
+              <div class="service-meta"><span>&#128336;</span> 120 min</div>
+              <ul class="service-features">
+                <li>Classic + volume blend</li><li>Textured look</li><li>Versatile style</li><li>Lasts 6-8 weeks</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline btn-block">Book This Set</a>
+            </div>
+          </div>
+
+          <div class="service-card popular" data-delay="300">
+            <div class="popular-badge">&#10024; Most Popular</div>
+            <div class="service-img-wrap">
+              <img src="https://storage.manus.im/gallery-studio-3_9cc9c124.jpg" alt="Wet Set" />
+            </div>
+            <div class="service-body">
+              <div class="service-header">
+                <h3>Wet Set</h3>
+                <span class="service-price">Ksh 4,000</span>
+              </div>
+              <p>Sleek, glossy lashes that look like you just applied mascara. Bold and polished.</p>
+              <div class="service-meta"><span>&#128336;</span> 120 min</div>
+              <ul class="service-features">
+                <li>Mascara effect</li><li>Glossy finish</li><li>Dramatic density</li><li>Lasts 6-8 weeks</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline btn-block">Book This Set</a>
+            </div>
+          </div>
+
+          <div class="service-card" data-delay="400">
+            <div class="service-img-wrap">
+              <img src="https://storage.manus.im/hero-lashes-studio_9f756cab.jpg" alt="Volume Set" />
+            </div>
+            <div class="service-body">
+              <div class="service-header">
+                <h3>Volume Set</h3>
+                <span class="service-price">Ksh 4,500</span>
+              </div>
+              <p>Multiple lightweight fans per lash for full, fluffier volume with a glamorous finish.</p>
+              <div class="service-meta"><span>&#128336;</span> 150 min</div>
+              <ul class="service-features">
+                <li>2D-5D fans</li><li>Full volume</li><li>Glamorous</li><li>Lasts 6-8 weeks</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline btn-block">Book This Set</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Refills Tab -->
+      <div class="tab-content" id="refills">
+        <div class="price-list">
+          <h3>Refill Prices</h3>
+          <p class="price-list-sub">Maintain your lash set with a refill appointment. Recommended every 2-3 weeks.</p>
+          <div class="price-item"><span>Classic Set Refill</span><span class="price">Ksh 2,000</span></div>
+          <div class="price-item"><span>Soft-Hybrid Refill</span><span class="price">Ksh 2,500</span></div>
+          <div class="price-item"><span>Hybrid Set Refill</span><span class="price">Ksh 3,000</span></div>
+          <div class="price-item"><span>Wet Set Refill</span><span class="price">Ksh 3,000</span></div>
+          <div class="price-item"><span>Volume Set Refill</span><span class="price">Ksh 3,500</span></div>
+        </div>
+      </div>
+
+      <!-- Extras Tab -->
+      <div class="tab-content" id="extras">
+        <div class="price-list">
+          <h3>Extras & Add-Ons</h3>
+          <p class="price-list-sub">Additional services and upgrades available with any appointment.</p>
+          <div class="price-item"><span>Removal — Individual Lashes</span><span class="price">Ksh 500</span></div>
+          <div class="price-item"><span>Removal — Clusters</span><span class="price">Ksh 1,000</span></div>
+          <div class="price-item"><span>Housecall</span><span class="price">+Ksh 2,000</span></div>
+          <div class="price-item"><span>Wispy Add-On</span><span class="price">+Ksh 500</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">Lash <em>Gallery</em></h2>
+        <p class="section-subtitle">A glimpse into the artistry and precision behind every Ziara Lashes set.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <img src="https://storage.manus.im/gallery-studio-1_36637c58.jpg" alt="Wispy Hybrid" />
+          <div class="gallery-overlay">
+            <h3>Wispy Hybrid</h3>
+            <span>Natural Glam</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://storage.manus.im/gallery-studio-2_c47f92aa.jpg" alt="Cat Eye" />
+          <div class="gallery-overlay">
+            <h3>Cat Eye</h3>
+            <span>Sultry</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://storage.manus.im/gallery-studio-3_9cc9c124.jpg" alt="Doll Eye" />
+          <div class="gallery-overlay">
+            <h3>Doll Eye</h3>
+            <span>Open & Bright</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://storage.manus.im/hero-lashes-studio_9f756cab.jpg" alt="Natural Set" />
+          <div class="gallery-overlay">
+            <h3>Natural Set</h3>
+            <span>Everyday</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-image">
+        <div class="about-img-wrapper">
+          <img src="https://storage.manus.im/about-studio_d9640ec5.jpg" alt="Ziara Lashes studio" />
+        </div>
+        <div class="about-stat animate-in">
+          <strong>300+</strong>
+          <span>Lash sets delivered</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-label">About Us</span>
+        <h2 class="section-title">Where Beauty Meets <em>Precision</em></h2>
+        <p>At Ziara Lashes, we believe every eye tells a unique story. Since 2023, we've been crafting bespoke lash extensions that enhance natural beauty without compromise.</p>
+        <p>Our bright, modern studio in Nairobi is designed for comfort and precision. Every set is custom-designed to complement your eye shape, face structure, and personal style.</p>
+        <div class="about-values">
+          <div class="value-card">
+            <div class="value-icon">&#10024;</div>
+            <div>
+              <h4>Premium Quality</h4>
+              <p>Only the finest synthetic mink lashes</p>
+            </div>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">&#128140;</div>
+            <div>
+              <h4>Custom Design</h4>
+              <p>Tailored to your unique eye shape</p>
+            </div>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">&#127880;</div>
+            <div>
+              <h4>Expert Artistry</h4>
+              <p>3+ years of lash mastery</p>
+            </div>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">&#128170;</div>
+            <div>
+              <h4>Long-Lasting</h4>
+              <p>6-8 weeks of stunning lashes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Client Love</span>
+        <h2 class="section-title">What They <em>Say</em></h2>
+        <p class="section-subtitle">Real reviews from real clients who trust Ziara Lashes.</p>
+      </div>
+      <div class="carousel">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"My lashes have never looked better! The studio is so clean and welcoming, and the results are always flawless. I've been coming for months and I'm never going anywhere else."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">A</div>
+              <div>
+                <strong>Amina K.</strong>
+                <span>Volume Set Client</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Absolutely obsessed with my hybrid set! The attention to detail is incredible. Ziara really takes her time to get it perfect. My lashes last so long too!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">J</div>
+              <div>
+                <strong>Joy M.</strong>
+                <span>Hybrid Set Client</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"I've tried lash artists all over Nairobi and Ziara is hands down the best. The wet set she did for me was everything! So glossy and natural-looking."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div>
+                <strong>Sarah N.</strong>
+                <span>Wet Set Client</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="prevBtn">&#8592;</button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-btn" id="nextBtn">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Book Your <em>Appointment</em></h2>
+        <p class="section-subtitle">Ready for your lash transformation? Fill in the form below and we'll get back to you.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="bookingForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="07XX XXX XXX" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" />
+            </div>
+            <div class="form-group">
+              <label for="service">Service</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="classic">Classic Set — Ksh 3,000</option>
+                <option value="soft-hybrid">Soft-Hybrid — Ksh 3,500</option>
+                <option value="hybrid">Hybrid Set — Ksh 4,000</option>
+                <option value="wet">Wet Set — Ksh 4,000</option>
+                <option value="volume">Volume Set — Ksh 4,500</option>
+                <option value="refill-classic">Classic Refill — Ksh 2,000</option>
+                <option value="refill-soft-hybrid">Soft-Hybrid Refill — Ksh 2,500</option>
+                <option value="refill-hybrid">Hybrid Refill — Ksh 3,000</option>
+                <option value="refill-wet">Wet Refill — Ksh 3,000</option>
+                <option value="refill-volume">Volume Refill — Ksh 3,500</option>
+                <option value="removal-individual">Removal (Individual) — Ksh 500</option>
+                <option value="removal-clusters">Removal (Clusters) — Ksh 1,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" name="date" />
+            </div>
+            <div class="form-group">
+              <label for="time">Preferred Time</label>
+              <select id="time" name="time">
+                <option value="">Select time</option>
+                <option value="9:00">9:00 AM</option>
+                <option value="10:00">10:00 AM</option>
+                <option value="11:00">11:00 AM</option>
+                <option value="12:00">12:00 PM</option>
+                <option value="13:00">1:00 PM</option>
+                <option value="14:00">2:00 PM</option>
+                <option value="15:00">3:00 PM</option>
+                <option value="16:00">4:00 PM</option>
+                <option value="17:00">5:00 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Additional Notes</label>
+            <textarea id="message" name="message" rows="4" placeholder="Any special requests or questions..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Book Appointment</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="info-icon">&#128205;</div>
+            <div>
+              <h4>Visit Us</h4>
+              <p>Nairobi, Kenya<br />The Bazaar 14th floor</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">&#128222;</div>
+            <div>
+              <h4>Call Us</h4>
+              <p>0714 283 646</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">&#9993;</div>
+            <div>
+              <h4>Email Us</h4>
+              <p>ziaraeyelashes@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">&#128336;</div>
+            <div>
+              <h4>Hours</h4>
+              <p>Mon–Sat: 9AM – 7PM<br />Sunday: By appointment</p>
+            </div>
+          </div>
+          <a href="https://wa.me/254714283646" target="_blank" rel="noopener noreferrer" class="whatsapp-link">
+            &#128172; Book via WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="https://storage.manus.im/ziara-logo-final_696e70b1.png" alt="Ziara Lashes" class="footer-logo" />
+          <p>Premium lash extensions crafted with artistry and precision. Your eyes, elevated.</p>
+          <div class="social-links">
+            <a href="https://instagram.com/ziaralashes" target="_blank" rel="noopener noreferrer">&#128247;</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">&#128248;</a>
+            <a href="mailto:ziaraeyelashes@gmail.com">&#9993;</a>
+            <a href="tel:0714283646">&#128222;</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#services">Classic Lashes</a></li>
+            <li><a href="#services">Soft-Hybrid</a></li>
+            <li><a href="#services">Hybrid Set</a></li>
+            <li><a href="#services">Wet Set</a></li>
+            <li><a href="#services">Volume Set</a></li>
+            <li><a href="#services">Refills</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ziara Lashes. All rights reserved.</p>
+        <p>Crafted with <span class="heart">&#9829;</span> for beautiful eyes</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">
+    <span class="toast-icon">&#10003;</span>
+    <span class="toast-text">Booking request sent! We'll contact you shortly.</span>
+    <button class="toast-close" id="toastClose">&times;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
